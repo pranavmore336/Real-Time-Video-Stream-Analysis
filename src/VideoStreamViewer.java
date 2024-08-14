@@ -35,7 +35,7 @@ public class VideoStreamViewer extends Application {
     private LineChart<Number, Number> faceChart;
     private XYChart.Series<Number, Number> faceSeries;
     private int frameCount = 0;
-    private VideoWriter videoWriter; // Add VideoWriter instance variable
+    private VideoWriter videoWriter; 
 
     @Override
     public void start(Stage primaryStage) {
