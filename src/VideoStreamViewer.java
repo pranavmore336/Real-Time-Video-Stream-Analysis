@@ -68,7 +68,7 @@ public class VideoStreamViewer extends Application {
         primaryStage.show();
 
 
-        videoWriter = new VideoWriter("output.mp4", VideoWriter.fourcc('X', '2', '6', '4'), 30, new Size(640, 480)); // if you want in .avi fiel then use MJPG fourcc 
+        videoWriter = new VideoWriter("output.mp4", VideoWriter.fourcc('X', '2', '6', '4'), 30, new Size(640, 480)); // if you want video in .avi file then use MJPG fourcc 
         if (!videoWriter.isOpened()) {
             System.out.println("Error: Could not open VideoWriter.");
             return;
